@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Drawft — Draw. Draft. Collaborate. A real-time collaborative document editor and whiteboard." />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>body { background: #0d0d1e; }</style>
+    <title>Drawft — Draw. Draft. Collaborate.</title>
+    <script>
+      // Anti-Inspection Security
+      document.addEventListener('contextmenu', (e) => e.preventDefault());
+      
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'F12' || e.keyCode === 123) e.preventDefault();
+        if ((e.ctrlKey || e.metaKey) && e.shiftKey && ['I', 'i', 'J', 'j', 'C', 'c'].includes(e.key)) e.preventDefault();
+        if ((e.ctrlKey || e.metaKey) && ['U', 'u', 'S', 's'].includes(e.key)) e.preventDefault();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
