@@ -2,17 +2,6 @@
 
 **Live Demo:** [https://drawft.vercel.app](https://drawft.vercel.app)
 
-## Internship Details
-
-| | |
-|---|---|
-| **Company** | CODTECH IT SOLUTIONS |
-| **Name** | SHEHAB MOHAMMAD SADIQUE |
-| **Intern ID** | CTIS8896 |
-| **Domain** | MERN STACK WEB DEVELOPMENT |
-| **Duration** | 6 WEEKS |
-| **Mentor** | NEELA SANTHOSH |
-| **Task** | Task 3 — Real-Time Collaboration Tool |
 
 ## 📝 Project Description
 
@@ -28,7 +17,7 @@ The application boasts a meticulously crafted, premium dark-themed UI enhanced w
 - **Live Presence & Room Management:** Users can instantly generate unique shareable room codes. The application features real-time "Online Now" indicators, dynamically updating the active user list as participants join or leave.
 - **Advanced Anti-Inspection Security:** Robust client-side protections that aggressively block Developer Tools, context menus, and keyboard shortcuts (like F12, Ctrl+Shift+I) to secure the application interface and underlying logic.
 
-This project was developed as **Task 3** for the CODTECH IT SOLUTIONS internship program, serving as a comprehensive demonstration of advanced full-stack development capabilities, complex state management, WebSocket integration, and premium UI/UX design execution.
+This project serves as a comprehensive demonstration of advanced full-stack development capabilities, complex state management, WebSocket integration, and premium UI/UX design execution.
 
 ## 📸 Screenshots
 
