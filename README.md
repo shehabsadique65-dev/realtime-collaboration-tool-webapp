@@ -48,6 +48,5 @@ A shared, interactive canvas allowing teams to draw, design, and brainstorm in r
 
 ---
 <p align="center">
-  <b>Crafted by SHEHAB</b><br>
-  © 2026 Shehab Sadique. All Rights Reserved.
+  <b>Crafted by SHEHAB</b>
 </p>
